@@ -1,0 +1,25 @@
+html, body {
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+#icon-container {
+    margin: -4rem 14rem 0rem 14rem;
+}
+
+.icon {
+    width: 8rem;
+    height: 8rem;
+    image-rendering: pixelated;
+    margin: 1rem;
+}
+
+#banner {
+    max-width: 100%;
+}
