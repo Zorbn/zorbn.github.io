@@ -20,15 +20,5 @@
             <img id="itch" class="icon" src="itchButton.png" onMouseOver="this.src='itchButtonHighlighted.png'" onMouseOut="this.src='itchButton.png'">
         </a>
     </div>
-    <script>
-        const subdomainMap = new Map()
-            .set("towersoftowers", "https://towersoftowers.onrender.com");
-
-        const subdomain = window.location.host.split(".")[0];
-        const redirect = subdomainMap.get(subdomain);
-        if (redirect != undefined) {
-            window.location.href = redirect;
-        }
-    </script>
 </body>
 </html>
