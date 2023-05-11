@@ -21,17 +21,17 @@ html {
 }
 
 .banner-bg a {
-    background-color: red;
     margin-top: var(--img-padding);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 0px;
+    /* width: 0px; */
 }
 
 .banner {
-    height: 100px;
-    width: auto;
+    width: 400px;
+    max-width: 75%;
+    height: auto;
     image-rendering: pixelated;
     filter: drop-shadow(var(--btn-shift) var(--btn-shift) 0px var(--clr-white));
 }
@@ -49,6 +49,8 @@ html {
 a {
     float: left;
     width: 700px;
+    max-width: 75%;
+
     object-fit: cover;
     margin-bottom: var(--img-padding);
 }
